@@ -28,7 +28,7 @@ def get_weather_json(city):
 
 
 def get_english_name(city_name):
-    df = pd.read_csv('patterns/weather_bot/data/cities_ru_en.csv', names=['russian', 'english'])
+    df = pd.read_csv('data/cities_ru_en.csv', names=['russian', 'english'])
     row = df[df['russian'] == city_name]
     if len(row) == 0:
         return city_name
