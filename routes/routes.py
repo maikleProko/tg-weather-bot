@@ -2,7 +2,7 @@ from flask import Flask
 from threading import Thread
 import requests
 import pandas as pd
-from patterns.weather_bot.constants import API_KEY_WEATHER
+from routes.constants import API_KEY_WEATHER
 
 app = Flask('')
 

@@ -1,5 +1,5 @@
 import constants
-from patterns.weather_bot.weather_bot import keep_alive, execute
+from routes.routes import keep_alive, execute
 import pip
 
 pip.main(['install', 'pytelegrambotapi'])
